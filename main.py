@@ -1,1 +1,9 @@
-#WRITE YOUR CODE IN THIS FILE
+def echo(x, y):
+
+    word = x
+
+    for i in range(1, y):
+        word = word + x
+    return word
+
+print(echo("dog",5))
